@@ -1,9 +1,13 @@
-# build-node
-///////////////// 1-install packages /////////////////////
+# store-backend
 
+///////////////// 1-install packages /////////////////////
+--------------------------------------------------------------
+(
 npm i
 yarn i
+)
 ///////////////// 2-open the trminal Make /////////////////////
+--------------------------------------------------------------
 
 open the psql shell on your machine and apply its default configurations
 create your user with superuser privileges and create the two databases for development and testing purposes
@@ -28,11 +32,13 @@ add this data in File (
 )
 
 ///////////////// 3- run migrate  ////////////////////////////
-
+--------------------------------------------------------------
+(
 npm run mu || yarn mu /*for db-migrate up*/
 npm run md || yarn mu /*for db-migrate done*/
-
+)
 ///////////////// 4- run projact  ////////////////////////////
+--------------------------------------------------------------
 
 npm run dev || yarn dev
 
