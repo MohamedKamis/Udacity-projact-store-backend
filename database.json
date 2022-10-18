@@ -1,0 +1,17 @@
+{
+  
+  "dev": {
+    "user": { "ENV": "Postgres_user" },
+    "password": { "ENV": "Postgres_password" },
+    "host": { "ENV": "Postgres_host" },
+    "database": { "ENV": "Postgres_database" },
+    "driver": "pg"
+  },
+  "test": {
+    "driver": "pg",
+    "host": { "ENV": "Postgres_host" },
+    "database":{"ENV":"Postgres_database"},
+    "user": { "ENV": "Postgres_user" },
+    "password": { "ENV": "Postgres_password" }
+  }
+}
